@@ -1,0 +1,31 @@
+.footer{
+    flex: 0.2;
+    color: aliceblue;
+    padding: 10px;
+    .varient,.size,.color,.other{
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        text-align: left;
+        h5{
+            font-size: 20px;
+            color: tomato;
+            border-bottom: 2px solid tomato;
+            width: fit-content;
+        }
+        input{
+            margin: 5px;
+        }
+        input[type=checkbox]{
+            width: 15px;
+            height: 15px;
+        }
+    }
+    .admin{
+        position: absolute;
+        bottom: 10px;
+    }
+    .name-link{
+        color: aliceblue;
+    }
+}

@@ -1,0 +1,18 @@
+.main{
+    flex: .6;
+    background: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    .title{
+        color: tomato;
+        margin-bottom: 30px;
+    }
+    .button-container{
+        padding: 20px;
+        width: 100%;
+        background: rgb(210, 207, 207);
+        border-radius: 10px;
+    }
+}
